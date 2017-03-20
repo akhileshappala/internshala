@@ -1,0 +1,1283 @@
+﻿<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>jobshala</title>
+<meta name="description" content="jobshala">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<link href="css/bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+	
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<style>
+		.custom-back-color,.btn-primary
+		{
+			background:#2580b1 !important;
+			background-color:#2580b1 !important;
+			border-color:#2580b1 !important;
+		}
+		
+		.custom-back-color a
+		{
+			color:#ffffff !important;
+		}
+		
+		.custom-back-color-light
+		{
+			background:#45a0d1 !important;
+			background-color:#45a0d1 !important;
+		}
+		.custom-color,h1,h2,h33,h4,.job-details-link,.results-job-title,.main_category_link
+		{
+			color:#2580b1 !important;
+		}
+		.job-details-info
+		{
+			border-color:#2580b1 !important;
+		}
+		.custom-color-light
+		{
+			color:#45a0d1 !important;
+		}
+		
+		.custom-gradient
+		{
+			background-color:#2580b1 !important;
+			background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#2580b1), to(#45a0d1)) !important;
+			background-image:-webkit-linear-gradient(top, #2580b1, #45a0d1) !important;
+			background-image:-moz-linear-gradient(top, #2580b1, #45a0d1) !important;
+			background-image:-ms-linear-gradient(top, #2580b1, #45a0d1) !important;
+			background-image:-o-linear-gradient(top, #2580b1, #45a0d1) !important;
+			filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#2580b1, endColorstr=#45a0d1) !important;
+			-ms-filter:"progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#2580b1, endColorstr=#45a0d1)" !important;
+		}
+		
+		 input[type="submit"].custom-gradient
+		 {
+		  color:#ffffff !important;
+		}
+		
+		.custom-gradient-2
+		{
+			background-color:#ebebeb !important;
+			background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#fbfbfb), to(#ebebeb)) !important;
+			background-image:-webkit-linear-gradient(top, #fbfbfb, #ebebeb) !important;
+			background-image:-moz-linear-gradient(top, #fbfbfb, #ebebeb) !important;
+			background-image:-ms-linear-gradient(top, #fbfbfb, #ebebeb) !important;
+			background-image:-o-linear-gradient(top, #fbfbfb, #ebebeb) !important;
+			filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#fbfbfb, endColorstr=#ebebeb) !important;
+			-ms-filter:"progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#fbfbfb, endColorstr=#ebebeb)" !important;
+			color:#000000 !important;
+			background-color: #ffffff !important;
+			border-color: #cccccc !important;
+		}
+		
+		</style>
+		</head>
+  <body>
+
+	
+	<div id="wrapper">
+
+		<nav class="custom-back-color navbar navbar-default navbar-fixed-top">
+		  <div class="container">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <div class="logo">
+<a class="navbar-brand text-logo custom-color" href="index.html">jobshala</a></div>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+			  <ul class="nav navbar-nav">
+				
+					
+<li><a class="main-top-link" href="index.html">Home</a> </li>
+<li><a class="main-top-link" href="#en_Courses.html">Courses</a> </li>
+<li><a class="main-top-link" href="#en_Jobseekers.html">Jobseekers</a> </li>
+<li><a class="main-top-link" href="#en_Employers.html">Employers</a> </li>
+
+<li><a class="main-top-link" href="#en_News.html">News</a> </li>
+<li><a class="main-top-link" href="#en_Contact.html">Contact</a> </li>
+				
+			  </ul>
+			  <ul class="nav navbar-nav navbar-right">
+					
+					<li class="dropdown"><a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="images/flags/EN.gif" class="language-flag-icon"/> English <span class="caret"></span></a> <ul class="dropdown-menu language-select">
+					<li><a href="#l"><img src="images/flags/ES.gif" class="language-flag-icon"/> <span  class="language-select-link">Español</span></a></li>
+					 
+				<li role="separator" class="divider"></li>
+					<li><a href=""><img src="images/flags/FR.gif" class="language-flag-icon"/> <span  class="language-select-link">Français</span></a></li>
+					 
+				<li role="separator" class="divider"></li>
+					<li><a href=""><img src="images/flags/PT.gif" class="language-flag-icon"/> <span  class="language-select-link">Português</span></a></li>
+					 
+				
+				</ul>
+              </li>
+									<li class="active"><a href="data base/register.php" class="login-trigger custom-back-color" data-toggle="modal" data-target="">SIGN UP</a></li>
+						<li class="active"><a href="data base/index.php" class="login-trigger custom-back-color" data-toggle="modal" data-target="">LOG IN</a></li>
+
+			  </ul>
+			</div>
+		  </div>
+		</nav>
+			
+		
+		
+
+	
+	<style>
+	#home_panel_wrap
+	{
+		background-image:url('backgrounds/1.jpg');
+	}
+	</style>
+	<div id="home_panel_wrap">
+		<div>
+	<br/><br/><br/>
+		
+	
+<div id="myCarousel" class="carousel slide">
+  
+	
+	<div id="slider_container" class="carousel-inner">
+	 	<div  class="item active slide-back">
+			<div class="container">
+				<div class="xcarousel-caption">
+				<a class="carousel-link" href=#><img class="slide-product-image img-responsive right-margin-40" src="thumbnails/20593860.jpg" alt="Huawei" align="left"/><h1  class="no-top-margin carousel-link add-shadow">Network Engineers Needed for a top IT company</h1>
+				  <p class="carousel-job-text hide-sm">Network engineers are responsible for implementing, maintaining, supporting, developing and, in some cases designing communication networks within an organisation or between organisations.Their goal is to ensure the integrity of high availability network infrastructure in order ...</p>
+					</a>
+				 <br/>
+				</div>
+			</div>
+		</div><div  class="item  slide-back">
+			<div class="container">
+				<div class="xcarousel-caption">
+				<a class="carousel-link" href=#><img class="slide-product-image img-responsive right-margin-40" src="thumbnails/63527859.jpg" alt="Oracle Corporation" align="left"/><h1  class="no-top-margin carousel-link add-shadow">Public Cloud Senior Test Developer (Java/JavaEE)</h1>
+				  <p class="carousel-job-text hide-sm">As a member of Oracle Cloud team, you will involve in the end to end testing of Oracle Cloud and the full cycle of Cloud system implementation to ensure that Cloud computing is fully enterprise ...</p>
+					</a>
+				 <br/>
+				</div>
+			</div>
+		</div><div  class="item  slide-back">
+			<div class="container">
+				<div class="xcarousel-caption">
+				<a class="carousel-link" href=#><img class="slide-product-image img-responsive right-margin-40" src="thumbnails/92767745.jpg" alt="Dell Inc" align="left"/><h1  class="no-top-margin carousel-link add-shadow">Client Technical Support Associate</h1>
+				  <p class="carousel-job-text hide-sm">The Client Technical Support Specialist is responsible for providing telephone/email/chat, online, social media and remote diagnostic technical support of desktops, portables, peripherals (e.g., printers, projectors, etc.) and software custom or off the shelf software – ...</p>
+					</a>
+				 <br/>
+				</div>
+			</div>
+		</div>	</div>
+	
+		  <a class="left carousel-control" href="index.html#myCarousel" data-slide="prev"><img src="images/carousel-arrow-left.png" alt="" class="carousel-icon"/></a>
+	  <a class="right carousel-control" href="index.html#myCarousel" data-slide="next"><img src="images/carousel-arrow-right.png" alt="" class="carousel-icon"/></a>
+	</div>
+<script type="text/javascript">
+
+
+if(document.getElementById("myCarousel"))
+{
+	$(document).ready(function() 
+	{
+		$('.carousel').carousel({
+		  interval: 9000		})
+	
+	});
+}
+</script>
+
+
+
+</div>
+
+
+<div class="container">
+<div class="search-form-wrap">
+
+
+	<div class="text-center">
+	<h4 class="white-font bottom-margin-5">Search for Jobs</h4>
+	</div>
+	<form name="home_form" id="home_form" action="#index.php"  style="margin-top:0px;margin-bottom:0px;margin-left:0px;margin-right:0px" method="post"> 
+	<input type="hidden" name="mod" value="search">
+	<input type="hidden" name="search" value="1">
+	<input type="hidden" name="advanced" id="advanced_s" value="0">
+
+		<div class="col-md-5 form-group group-1">
+			<span class="main-search-label"><br/></span>
+			
+			<input type="text" name="job_title" class="input-job" placeholder="Keyword">
+		</div>
+	
+		<div class="col-md-5 form-group group-3">
+			<span id="label_location" class="main-search-label"><br/></span>
+			
+			<input type="hidden" name="field_location" id="field_location" value=""/>
+			<select class="input-location" name="location" id="location"  onchange="dropDownChange(this,'location')">
+				<option value="">Location</option>
+				
+<option value="229@United States">United States</option>
+<option value="110@Argentina">Argentina</option>
+<option value="113@Australia">Australia</option>
+<option value="1@Austria">Austria</option>
+<option value="2@Belgium">Belgium</option>
+<option value="130@Brazil">Brazil</option>
+<option value="3@Bulgaria">Bulgaria</option>
+<option value="38@Canada">Canada</option>
+<option value="43@Chile">Chile</option>
+<option value="47@Colombia">Colombia</option>
+<option value="4@Cyprus">Cyprus</option>
+<option value="5@Czech Republic">Czech Republic</option>
+<option value="6@Denmark">Denmark</option>
+<option value="7@Estonia">Estonia</option>
+<option value="8@Faroe Islands">Faroe Islands</option>
+<option value="9@Finland">Finland</option>
+<option value="10@France">France</option>
+<option value="11@Germany">Germany</option>
+<option value="12@Greece">Greece</option>
+<option value="96@Hong Kong SAR">Hong Kong SAR</option>
+<option value="13@Hungary">Hungary</option>
+<option value="14@Iceland">Iceland</option>
+<option value="99@India">India</option>
+<option value="100@Indonesia">Indonesia</option>
+<option value="15@Ireland">Ireland</option>
+<option value="16@Italy">Italy</option>
+<option value="108@Japan">Japan</option>
+<option value="17@Latvia">Latvia</option>
+<option value="18@Liechtenstein">Liechtenstein</option>
+<option value="19@Lithuania">Lithuania</option>
+<option value="20@Luxembourg">Luxembourg</option>
+<option value="129@Malaysia">Malaysia</option>
+<option value="21@Netherlands">Netherlands</option>
+<option value="154@New Zealand">New Zealand</option>
+<option value="22@Norway">Norway</option>
+<option value="23@Poland">Poland</option>
+<option value="24@Portugal">Portugal</option>
+<option value="25@Romania">Romania</option>
+<option value="26@San Marino">San Marino</option>
+<option value="27@Slovakia">Slovakia</option>
+<option value="28@Slovenia">Slovenia</option>
+<option value="198@South Africa">South Africa</option>
+<option value="29@Spain">Spain</option>
+<option value="30@Sweden">Sweden</option>
+<option value="31@Switzerland">Switzerland</option>
+<option value="32@United Kingdom">United Kingdom</option>
+<option value="235@Venezuela">Venezuela</option>			</select>
+		</div>
+		<div class="col-md-2 no-padding">
+			<span class="main-search-label"><br/></span>
+			<button type="submit" class="btn main-search-button custom-gradient btn-default btn-green pull-right no-margin">Search</button>
+		
+		</div>
+				
+		<div class="clearfix"></div>
+		
+	</form>
+
+
+
+
+
+
+					<div class="search-bottom-wrap"  >
+			
+
+					<a class="search-bottom-link" href="#mod-en-advanced_search.html">Advanced search</a>
+
+					<a class="search-bottom-link" href="#mod-en-email_alerts.html">Create an email alert</a>
+				
+				
+					<a class="search-bottom-link" href="#mod-en-employers_registration.html">Post a new job</a>
+
+						<div class="clearfix"></div>
+				</div>
+
+
+
+			</div>
+
+
+</div>
+<br/><br/>
+</div>
+
+		<div id="companies-carousel">
+	<div class="container text-center">
+	<script type="text/javascript">
+	var companies_carousel_itemList = [
+			{url: "thumbnails/28826734.jpg", title: "", link: "jobs-hewlettpackard-7.html"}
+
+		,
+		{url: "thumbnails/30052757.jpg", title: "", link: "jobs-computer-training-ltd-3.html"}
+
+		,
+		{url: "thumbnails/92767745.jpg", title: "", link: "jobs-dell-inc-6.html"}
+
+		,
+		{url: "thumbnails/63527859.jpg", title: "", link: "jobs-oracle-corporation-2.html"}
+
+		,
+		{url: "thumbnails/92537540.jpg", title: "", link: "jobs-santa-sac-247.html"}
+
+		,
+		{url: "thumbnails/20593860.jpg", title: "", link: "jobs-huawei-69.html"}
+
+		,
+		{url: "thumbnails/83524140.jpg", title: "", link: "jobs-international-institute-of-marketing-professionals-56.html"}
+
+		,
+		{url: "thumbnails/73959673.jpg", title: "", link: "jobs-pepe-237.html"}
+
+		,
+		{url: "thumbnails/40565264.jpg", title: "", link: "jobs-amazoncom-inc-5.html"}
+
+			];
+	</script>
+	<script src="js/carousel.js"></script>
+		
+	<div id="ads-rotator"  >
+	<br/>
+
+		<div id="wrap">
+			<ul id="companies_carousel"  class="jcarousel-skin-ie7">
+		
+			</ul>
+		</div>
+	</div>
+
+	
+	<div class="clear"></div>	
+	
+	</div>
+</div>
+	
+		
+	
+	
+			<div class="container main-container">
+				<div class="row">
+				
+					
+					
+					<div class="col-md-8 min-height-400">
+					
+						<site top_banners/>
+						
+						
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="index.html#by_category" aria-controls="by_category" role="tab" data-toggle="tab">Jobs by Category</a></li>
+    <li role="presentation"><a href="index.html#by_location" aria-controls="by_location" role="tab" data-toggle="tab">Jobs by Location</a></li>
+   </ul>
+
+
+  <div class="tab-content padding-5">
+		<div role="tabpanel" class="tab-pane active" id="by_category">
+
+		
+<div class="clear"></div>
+<div class="col-md-4 no-left-padding" >
+
+<div class="category_link"><a href="#category-customer-support-1.html" class="main_category_link" title="Customer Support">Customer Support</a></div><span class="sub_category_link">Call Center</span><span class="sub_category_link">, Marketing</span><span class="sub_category_link">, Technical Support</span>
+</div>
+<div class="col-md-4 no-left-padding" >
+
+<div class="category_link"><a href="#category-databases-3.html" class="main_category_link" title="Databases">Databases</a></div><span class="sub_category_link">Consulting</span><span class="sub_category_link">, Data Entry</span><span class="sub_category_link">, Database Developer</span><span class="sub_category_link">, Data Analyst</span>
+</div>
+<div class="col-md-4 no-left-padding" >
+
+<div class="category_link"><a href="#category-engineers-5.html" class="main_category_link" title="Engineers">Engineers</a></div><span class="sub_category_link">Networking</span><span class="sub_category_link">, Electrical Engineers</span><span class="sub_category_link">, Telecommunications</span>
+</div>
+<div class="clear"></div>
+<div class="col-md-4 no-left-padding" >
+
+<div class="category_link"><a href="#category-graphic-design-7.html" class="main_category_link" title="Graphic Design">Graphic Design</a></div><span class="sub_category_link">Printmaking</span><span class="sub_category_link">, Web Design</span><span class="sub_category_link">, Other</span>
+</div>
+<div class="col-md-4 no-left-padding" >
+
+<div class="category_link"><a href="#category-hardware-8.html" class="main_category_link" title="Hardware">Hardware</a></div><span class="sub_category_link">Repair</span><span class="sub_category_link">, Sales</span><span class="sub_category_link">, Other Hardware Jobs</span>
+</div>
+<div class="col-md-4 no-left-padding" >
+
+<div class="category_link"><a href="#category-mobile-applications-9.html" class="main_category_link" title="Mobile Applications">Mobile Applications</a></div><span class="sub_category_link">Android Developer</span><span class="sub_category_link">, iOS Developer</span><span class="sub_category_link">, Windows Mobile</span>
+</div>
+<div class="clear"></div>
+<div class="col-md-4 no-left-padding" >
+
+<div class="category_link"><a href="#category-quality-assurance-10.html" class="main_category_link" title="Quality Assurance">Quality Assurance</a></div><span class="sub_category_link">Software Testing</span><span class="sub_category_link">, Quality Analyst</span><span class="sub_category_link">, QA Teamleader</span>
+</div>
+<div class="col-md-4 no-left-padding" >
+
+<div class="category_link"><a href="#category-security-13.html" class="main_category_link" title="Security">Security</a></div><span class="sub_category_link">Web Security</span><span class="sub_category_link">, Network Security</span><span class="sub_category_link">, Security Expert</span>
+</div>
+<div class="col-md-4 no-left-padding" >
+
+<div class="category_link"><a href="#category-software-developer-14.html" class="main_category_link" title="Software Developer">Software Developer</a></div><span class="sub_category_link">Games Developer</span><span class="sub_category_link">, Web Development</span><span class="sub_category_link">, Project Manager</span>
+</div>
+<div class="clear"></div>
+<div class="col-md-4 no-left-padding" >
+
+<div class="category_link"><a href="#category-system-administrator-15.html" class="main_category_link" title="System Administrator">System Administrator</a></div>
+</div>
+<div class="col-md-4 no-left-padding" >
+
+<div class="category_link"><a href="#category-technical-writing-17.html" class="main_category_link" title="Technical Writing">Technical Writing</a></div><span class="sub_category_link">Digital Copywriter</span><span class="sub_category_link">, Technical Writer</span>
+</div>
+<div class="col-md-4 no-left-padding" >
+
+<div class="category_link"><a href="#category-web-developer-18.html" class="main_category_link" title="Web Developer">Web Developer</a></div><span class="sub_category_link">ASP.NET</span><span class="sub_category_link">, Java / J2EE</span><span class="sub_category_link">, PHP</span><span class="sub_category_link">, HTML Developer</span><span class="sub_category_link">, Other</span>		
+		</div>
+	
+	</div>
+	
+	
+    <div role="tabpanel" class="tab-pane" id="by_location">
+	
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-argentina-110.html" class="category_link">Argentina</a>
+<span class="sub_category_link">Buenos Aires</span>, 
+<span class="sub_category_link">Catamarca</span>, 
+<span class="sub_category_link">Chaco</span>, 
+<span class="sub_category_link">Chubut</span>, 
+<span class="sub_category_link">Cordoba</span>, 
+<span class="sub_category_link">Corrientes</span>, 
+<span class="sub_category_link">Entre Rios</span>, 
+<span class="sub_category_link">Formosa</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-australia-113.html" class="category_link">Australia</a>
+<span class="sub_category_link">Albury</span>, 
+<span class="sub_category_link">Armidale</span>, 
+<span class="sub_category_link">Bathurst</span>, 
+<span class="sub_category_link">Blue Mountains</span>, 
+<span class="sub_category_link">Broken Hill</span>, 
+<span class="sub_category_link">Campbelltown</span>, 
+<span class="sub_category_link">Cessnock</span>, 
+<span class="sub_category_link">Dubbo</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-austria-1.html" class="category_link">Austria</a>
+<span class="sub_category_link">Amstetten</span>, 
+<span class="sub_category_link">Ansfelden</span>, 
+<span class="sub_category_link">Bad Ischl</span>, 
+<span class="sub_category_link">Bad Voslau</span>, 
+<span class="sub_category_link">Baden bei Wien</span>, 
+<span class="sub_category_link">Bischofshofen</span>, 
+<span class="sub_category_link">Bludenz</span>, 
+<span class="sub_category_link">Braunau am Inn</span>...</div>
+
+<div class="clear"></div>
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-belgium-2.html" class="category_link">Belgium</a>
+<span class="sub_category_link">Aalst</span>, 
+<span class="sub_category_link">Aarschot</span>, 
+<span class="sub_category_link">Antwerpen</span>, 
+<span class="sub_category_link">Arlon</span>, 
+<span class="sub_category_link">Bastogne</span>, 
+<span class="sub_category_link">Beringen</span>, 
+<span class="sub_category_link">Bilzen</span>, 
+<span class="sub_category_link">Blankenberge</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-brazil-130.html" class="category_link">Brazil</a>
+<span class="sub_category_link">Acre</span>, 
+<span class="sub_category_link">Alagoas</span>, 
+<span class="sub_category_link">Amapa</span>, 
+<span class="sub_category_link">Amazonas</span>, 
+<span class="sub_category_link">Bahia</span>, 
+<span class="sub_category_link">Ceara</span>, 
+<span class="sub_category_link">Distrito Federal</span>, 
+<span class="sub_category_link">Espirito Santo</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-bulgaria-3.html" class="category_link">Bulgaria</a>
+<span class="sub_category_link">Blagoevgrad</span>, 
+<span class="sub_category_link">Burgas</span>, 
+<span class="sub_category_link">Dobrich</span>, 
+<span class="sub_category_link">Gabrovo</span>, 
+<span class="sub_category_link">Haskovo</span>, 
+<span class="sub_category_link">Kardzhali</span>, 
+<span class="sub_category_link">Kyustendil</span>, 
+<span class="sub_category_link">Lovech</span>...</div>
+
+<div class="clear"></div>
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-canada-38.html" class="category_link">Canada</a>
+<span class="sub_category_link">Alberta</span>, 
+<span class="sub_category_link">British Columbia</span>, 
+<span class="sub_category_link">Manitoba</span>, 
+<span class="sub_category_link">New Brunswick</span>, 
+<span class="sub_category_link">Newfoundland and Labrador</span>, 
+<span class="sub_category_link">Northwest Territories</span>, 
+<span class="sub_category_link">Nova Scotia</span>, 
+<span class="sub_category_link">Nunavut</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-chile-43.html" class="category_link">Chile</a>
+<span class="sub_category_link">Aisen</span>, 
+<span class="sub_category_link">Antofagasta</span>, 
+<span class="sub_category_link">Araucania</span>, 
+<span class="sub_category_link">Arica and Parinacota</span>, 
+<span class="sub_category_link">Atacama</span>, 
+<span class="sub_category_link">Biobio</span>, 
+<span class="sub_category_link">Coquimbo</span>, 
+<span class="sub_category_link">Los Lagos</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-colombia-47.html" class="category_link">Colombia</a>
+<span class="sub_category_link">Armenia</span>, 
+<span class="sub_category_link">Barrancabermeja</span>, 
+<span class="sub_category_link">Barranquilla</span>, 
+<span class="sub_category_link">Bello</span>, 
+<span class="sub_category_link">Bucaramanga</span>, 
+<span class="sub_category_link">Buenaventura</span>, 
+<span class="sub_category_link">Buga</span>, 
+<span class="sub_category_link">Cartagena</span>...</div>
+
+<div class="clear"></div>
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-cyprus-4.html" class="category_link">Cyprus</a>
+<span class="sub_category_link">Achna</span>, 
+<span class="sub_category_link">Agia Marina</span>, 
+<span class="sub_category_link">Agia Marinouda</span>, 
+<span class="sub_category_link">Agia Napa</span>, 
+<span class="sub_category_link">Agia Trias</span>, 
+<span class="sub_category_link">Agia Varvara</span>, 
+<span class="sub_category_link">Agioi Trimithias</span>, 
+<span class="sub_category_link">Agios Dometios</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-czech-republic-5.html" class="category_link">Czech Republic</a>
+<span class="sub_category_link">Brno</span>, 
+<span class="sub_category_link">Ceské Budejovice</span>, 
+<span class="sub_category_link">Chomutov</span>, 
+<span class="sub_category_link">Decin</span>, 
+<span class="sub_category_link">Frydek-Mistek</span>, 
+<span class="sub_category_link">Havirov</span>, 
+<span class="sub_category_link">Hradec Kralové</span>, 
+<span class="sub_category_link">jihlava</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-denmark-6.html" class="category_link">Denmark</a>
+<span class="sub_category_link">Aalborgb</span>, 
+<span class="sub_category_link">Albertslunda</span>, 
+<span class="sub_category_link">Arhus</span>, 
+<span class="sub_category_link">Ballerupa</span>, 
+<span class="sub_category_link">Brondbya</span>, 
+<span class="sub_category_link">Copenhagena</span>, 
+<span class="sub_category_link">Esbjerg</span>, 
+<span class="sub_category_link">Fredericia</span>...</div>
+
+<div class="clear"></div>
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-estonia-7.html" class="category_link">Estonia</a>
+<span class="sub_category_link">Abja-Paluoja</span>, 
+<span class="sub_category_link">Antsla</span>, 
+<span class="sub_category_link">Elva</span>, 
+<span class="sub_category_link">Haapsalu</span>, 
+<span class="sub_category_link">jogeva</span>, 
+<span class="sub_category_link">johvi</span>, 
+<span class="sub_category_link">Kallaste</span>, 
+<span class="sub_category_link">Kardla</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-faroe-islands-8.html" class="category_link">Faroe Islands</a>
+<span class="sub_category_link">Eioi</span>, 
+<span class="sub_category_link">Famjin</span>, 
+<span class="sub_category_link">Fuglafjorour</span>, 
+<span class="sub_category_link">Fugloy</span>, 
+<span class="sub_category_link">Funningur</span>, 
+<span class="sub_category_link">Gotu Kommuna</span>, 
+<span class="sub_category_link">Hov</span>, 
+<span class="sub_category_link">Husar</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-finland-9.html" class="category_link">Finland</a>
+<span class="sub_category_link">Aanekoski</span>, 
+<span class="sub_category_link">Ahtari</span>, 
+<span class="sub_category_link">Akaa</span>, 
+<span class="sub_category_link">Alajarvi</span>, 
+<span class="sub_category_link">Alavus</span>, 
+<span class="sub_category_link">Anjalankoski</span>, 
+<span class="sub_category_link">Ekenas</span>, 
+<span class="sub_category_link">Espoo</span>...</div>
+
+<div class="clear"></div>
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-france-10.html" class="category_link">France</a>
+<span class="sub_category_link">Angers</span>, 
+<span class="sub_category_link">Anglet</span>, 
+<span class="sub_category_link">Abbeville</span>, 
+<span class="sub_category_link">Agde</span>, 
+<span class="sub_category_link">Agen</span>, 
+<span class="sub_category_link">Aix-en-Provence</span>, 
+<span class="sub_category_link">Aix-les-Bains</span>, 
+<span class="sub_category_link">Ajaccio</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-germany-11.html" class="category_link">Germany</a>
+<span class="sub_category_link">Aach</span>, 
+<span class="sub_category_link">Aachen</span>, 
+<span class="sub_category_link">Aalen</span>, 
+<span class="sub_category_link">Abenberg</span>, 
+<span class="sub_category_link">Abensberg</span>, 
+<span class="sub_category_link">Achern</span>, 
+<span class="sub_category_link">Achim</span>, 
+<span class="sub_category_link">Adelsheim</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-greece-12.html" class="category_link">Greece</a>
+<span class="sub_category_link">Athens</span>, 
+<span class="sub_category_link">Acharnes</span>, 
+<span class="sub_category_link">Agia Paraskevi</span>, 
+<span class="sub_category_link">Agia Varvara</span>, 
+<span class="sub_category_link">Agioi Anargyroi</span>, 
+<span class="sub_category_link">Agios Dimitrios</span>, 
+<span class="sub_category_link">Agios Ioannis Rentis</span>, 
+<span class="sub_category_link">Agrinio</span>...</div>
+
+<div class="clear"></div>
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-hong-kong-sar-96.html" class="category_link">Hong Kong SAR</a>
+<span class="sub_category_link">Central and Western</span>, 
+<span class="sub_category_link">District</span>, 
+<span class="sub_category_link">District</span>, 
+<span class="sub_category_link">District</span>, 
+<span class="sub_category_link">Eastern</span>, 
+<span class="sub_category_link">Islands</span>, 
+<span class="sub_category_link">Kowloon City</span>, 
+<span class="sub_category_link">Kwai Tsing</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-hungary-13.html" class="category_link">Hungary</a>
+<span class="sub_category_link">Békéscsaba</span>, 
+<span class="sub_category_link">Budapest</span>, 
+<span class="sub_category_link">Debrecen</span>, 
+<span class="sub_category_link">Eger</span>, 
+<span class="sub_category_link">Érd</span>, 
+<span class="sub_category_link">Gy_r</span>, 
+<span class="sub_category_link">Kaposvár</span>, 
+<span class="sub_category_link">Kecskemét</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-iceland-14.html" class="category_link">Iceland</a>
+<span class="sub_category_link">Akranes</span>, 
+<span class="sub_category_link">Akureyri</span>, 
+<span class="sub_category_link">Álftanes</span>, 
+<span class="sub_category_link">Borgarnes</span>, 
+<span class="sub_category_link">Dalvík</span>, 
+<span class="sub_category_link">Egilsstaoir</span>, 
+<span class="sub_category_link">EskifjOrour</span>, 
+<span class="sub_category_link">Garoabær</span>...</div>
+
+<div class="clear"></div>
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-india-99.html" class="category_link">India</a>
+<span class="sub_category_link">Abohar</span>, 
+<span class="sub_category_link">Achalpur</span>, 
+<span class="sub_category_link">Adipur</span>, 
+<span class="sub_category_link">Agartala</span>, 
+<span class="sub_category_link">Agra</span>, 
+<span class="sub_category_link">Ahmedabad</span>, 
+<span class="sub_category_link">Ahmednagar</span>, 
+<span class="sub_category_link">Aizawl</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-indonesia-100.html" class="category_link">Indonesia</a>
+<span class="sub_category_link">Ambon</span>, 
+<span class="sub_category_link">Balikpapan</span>, 
+<span class="sub_category_link">Banda Aceh</span>, 
+<span class="sub_category_link">Bandar Lampung</span>, 
+<span class="sub_category_link">Bandung</span>, 
+<span class="sub_category_link">Banjar</span>, 
+<span class="sub_category_link">Banjarmasin</span>, 
+<span class="sub_category_link">Batam</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-ireland-15.html" class="category_link">Ireland</a>
+<span class="sub_category_link">Armagh</span>, 
+<span class="sub_category_link">Belfast</span>, 
+<span class="sub_category_link">Cork</span>, 
+<span class="sub_category_link">Derry</span>, 
+<span class="sub_category_link">Dublin</span>, 
+<span class="sub_category_link">Galway</span>, 
+<span class="sub_category_link">Limerick</span>, 
+<span class="sub_category_link">Lisburn</span>...</div>
+
+<div class="clear"></div>
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-italy-16.html" class="category_link">Italy</a>
+<span class="sub_category_link">Acerra</span>, 
+<span class="sub_category_link">Acireale</span>, 
+<span class="sub_category_link">Afragola</span>, 
+<span class="sub_category_link">Agrigento</span>, 
+<span class="sub_category_link">Alessandria</span>, 
+<span class="sub_category_link">Altamura</span>, 
+<span class="sub_category_link">Ancona</span>, 
+<span class="sub_category_link">Andria</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-japan-108.html" class="category_link">Japan</a>
+<span class="sub_category_link">Aichi</span>, 
+<span class="sub_category_link">Akita</span>, 
+<span class="sub_category_link">Aomori</span>, 
+<span class="sub_category_link">Chiba</span>, 
+<span class="sub_category_link">Ehime</span>, 
+<span class="sub_category_link">Fukui</span>, 
+<span class="sub_category_link">Fukuoka</span>, 
+<span class="sub_category_link">Fukushima</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-latvia-17.html" class="category_link">Latvia</a>
+<span class="sub_category_link">Ainazi</span>, 
+<span class="sub_category_link">Aizkraukle</span>, 
+<span class="sub_category_link">Aizpute</span>, 
+<span class="sub_category_link">Akniste</span>, 
+<span class="sub_category_link">Aloja</span>, 
+<span class="sub_category_link">Aluksne</span>, 
+<span class="sub_category_link">Ape</span>, 
+<span class="sub_category_link">Auce</span>...</div>
+
+<div class="clear"></div>
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-liechtenstein-18.html" class="category_link">Liechtenstein</a>
+<span class="sub_category_link">Gamprin</span>, 
+<span class="sub_category_link">Schellenberg</span>, 
+<span class="sub_category_link">Vaduz</span>, 
+<span class="sub_category_link">Ruggell</span>, 
+<span class="sub_category_link">Eschen</span>, 
+<span class="sub_category_link">Mauren</span>, 
+<span class="sub_category_link">Schaan</span>, 
+<span class="sub_category_link">Triesen</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-lithuania-19.html" class="category_link">Lithuania</a>
+<span class="sub_category_link">Vilnius</span>, 
+<span class="sub_category_link">Kaunas</span>, 
+<span class="sub_category_link">Klaipeda</span>, 
+<span class="sub_category_link">siauliai</span>, 
+<span class="sub_category_link">Panevezys</span>, 
+<span class="sub_category_link">Alytus</span>, 
+<span class="sub_category_link">Marijampole</span>, 
+<span class="sub_category_link">Mazeikiai</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-luxembourg-20.html" class="category_link">Luxembourg</a>
+<span class="sub_category_link">Diekirch</span>, 
+<span class="sub_category_link">Differdange</span>, 
+<span class="sub_category_link">Dudelange</span>, 
+<span class="sub_category_link">Echternach</span>, 
+<span class="sub_category_link">Esch-sur-Alzette</span>, 
+<span class="sub_category_link">Ettelbruck</span>, 
+<span class="sub_category_link">Grevenmacher</span>, 
+<span class="sub_category_link">Luxembourg City</span>...</div>
+
+<div class="clear"></div>
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-malaysia-129.html" class="category_link">Malaysia</a>
+<span class="sub_category_link">George Town</span>, 
+<span class="sub_category_link">Kuala Lumpur</span>, 
+<span class="sub_category_link">Ipoh</span>, 
+<span class="sub_category_link">Kuching</span>, 
+<span class="sub_category_link">johor Bahru</span>, 
+<span class="sub_category_link">Kota Kinabalu</span>, 
+<span class="sub_category_link">Shah Alam</span>, 
+<span class="sub_category_link">Malacca Town</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-netherlands-21.html" class="category_link">Netherlands</a>
+<span class="sub_category_link">S-Hertogenbosch</span>, 
+<span class="sub_category_link">Alkmaar</span>, 
+<span class="sub_category_link">Almelo</span>, 
+<span class="sub_category_link">Alphen aan den Rijn</span>, 
+<span class="sub_category_link">Amersfoort</span>, 
+<span class="sub_category_link">Amstelveen</span>, 
+<span class="sub_category_link">Amsterdam</span>, 
+<span class="sub_category_link">Apeldoorn</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-new-zealand-154.html" class="category_link">New Zealand</a>
+<span class="sub_category_link">North Shore</span>, 
+<span class="sub_category_link">Waitakere</span>, 
+<span class="sub_category_link">Auckland</span>, 
+<span class="sub_category_link">Manukau</span>, 
+<span class="sub_category_link">Hamilton</span>, 
+<span class="sub_category_link">Tauranga</span>, 
+<span class="sub_category_link">Napier</span>, 
+<span class="sub_category_link">Palmerston North</span>...</div>
+
+<div class="clear"></div>
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-norway-22.html" class="category_link">Norway</a>
+<span class="sub_category_link">Akrehamn</span>, 
+<span class="sub_category_link">Alesund</span>, 
+<span class="sub_category_link">Alta</span>, 
+<span class="sub_category_link">Andalsnes</span>, 
+<span class="sub_category_link">Arendal</span>, 
+<span class="sub_category_link">Askim</span>, 
+<span class="sub_category_link">Bergen</span>, 
+<span class="sub_category_link">Bodo</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-poland-23.html" class="category_link">Poland</a>
+<span class="sub_category_link">Aleksandró w Kujawski</span>, 
+<span class="sub_category_link">Aleksandró w Ló dzki</span>, 
+<span class="sub_category_link">Alwernia</span>, 
+<span class="sub_category_link">Andrychó w</span>, 
+<span class="sub_category_link">Annopol</span>, 
+<span class="sub_category_link">Augustó w</span>, 
+<span class="sub_category_link">Babimost</span>, 
+<span class="sub_category_link">Baboró w</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-portugal-24.html" class="category_link">Portugal</a>
+<span class="sub_category_link">Abrantes</span>, 
+<span class="sub_category_link">Agualva-Cacém</span>, 
+<span class="sub_category_link">Águeda</span>, 
+<span class="sub_category_link">Albufeira</span>, 
+<span class="sub_category_link">Alcácer do Sal</span>, 
+<span class="sub_category_link">AlcobaCa</span>, 
+<span class="sub_category_link">Almada</span>, 
+<span class="sub_category_link">Almeirim</span>...</div>
+
+<div class="clear"></div>
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-romania-25.html" class="category_link">Romania</a>
+<span class="sub_category_link">Abrud</span>, 
+<span class="sub_category_link">Adjud</span>, 
+<span class="sub_category_link">Agnita</span>, 
+<span class="sub_category_link">Aiud</span>, 
+<span class="sub_category_link">Alba Iulia</span>, 
+<span class="sub_category_link">Alesd</span>, 
+<span class="sub_category_link">Alexandria</span>, 
+<span class="sub_category_link">Amara</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-san-marino-26.html" class="category_link">San Marino</a>
+<span class="sub_category_link">Acquaviva</span>, 
+<span class="sub_category_link">Borgo Maggiore</span>, 
+<span class="sub_category_link">Chiesanuova</span>, 
+<span class="sub_category_link">City of San Marino</span>, 
+<span class="sub_category_link">Domagnano</span>, 
+<span class="sub_category_link">Faetano</span>, 
+<span class="sub_category_link">Fiorentino</span>, 
+<span class="sub_category_link">Montegiardino</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-slovakia-27.html" class="category_link">Slovakia</a>
+<span class="sub_category_link">Bratislava</span>, 
+<span class="sub_category_link">Bánovce nad Bebravou</span>, 
+<span class="sub_category_link">Banská Bystrica</span>, 
+<span class="sub_category_link">Banská stiavnica</span>, 
+<span class="sub_category_link">Bardejov</span>, 
+<span class="sub_category_link">Bojnice</span>, 
+<span class="sub_category_link">Brezno</span>, 
+<span class="sub_category_link">Brezová pod Bradlom</span>...</div>
+
+<div class="clear"></div>
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-slovenia-28.html" class="category_link">Slovenia</a>
+<span class="sub_category_link">Celje</span>, 
+<span class="sub_category_link">Domzale</span>, 
+<span class="sub_category_link">Izola</span>, 
+<span class="sub_category_link">jesenice</span>, 
+<span class="sub_category_link">Kamnik</span>, 
+<span class="sub_category_link">Koper</span>, 
+<span class="sub_category_link">Kranj</span>, 
+<span class="sub_category_link">Ljubljana</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-south-africa-198.html" class="category_link">South Africa</a>
+<span class="sub_category_link">Buffalo City</span>, 
+<span class="sub_category_link">Bushbuckridge</span>, 
+<span class="sub_category_link">Cape Town</span>, 
+<span class="sub_category_link">Ekurhuleni</span>, 
+<span class="sub_category_link">Emalahleni</span>, 
+<span class="sub_category_link">Emfuleni</span>, 
+<span class="sub_category_link">eThekwini</span>, 
+<span class="sub_category_link">Greater Tubatse</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-spain-29.html" class="category_link">Spain</a>
+<span class="sub_category_link">A Coruña</span>, 
+<span class="sub_category_link">Álava</span>, 
+<span class="sub_category_link">Almeria</span>, 
+<span class="sub_category_link">Asturias</span>, 
+<span class="sub_category_link">Avila</span>, 
+<span class="sub_category_link">Badajoz</span>, 
+<span class="sub_category_link">Balearic Islands</span>, 
+<span class="sub_category_link">Barcelona</span>...</div>
+
+<div class="clear"></div>
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-sweden-30.html" class="category_link">Sweden</a>
+<span class="sub_category_link">AlingsAs</span>, 
+<span class="sub_category_link">AmAl</span>, 
+<span class="sub_category_link">Ängelholm</span>, 
+<span class="sub_category_link">Arboga</span>, 
+<span class="sub_category_link">Arvika</span>, 
+<span class="sub_category_link">Askersund</span>, 
+<span class="sub_category_link">Avesta</span>, 
+<span class="sub_category_link">Boden</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-switzerland-31.html" class="category_link">Switzerland</a>
+<span class="sub_category_link">Aarau</span>, 
+<span class="sub_category_link">Aarberg</span>, 
+<span class="sub_category_link">Aarburg</span>, 
+<span class="sub_category_link">Adliswil</span>, 
+<span class="sub_category_link">Affoltern am Albis</span>, 
+<span class="sub_category_link">Agno</span>, 
+<span class="sub_category_link">Aigle</span>, 
+<span class="sub_category_link">Allschwil</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-united-kingdom-32.html" class="category_link">United Kingdom</a>
+<span class="sub_category_link">Aberdeen</span>, 
+<span class="sub_category_link">Armagh</span>, 
+<span class="sub_category_link">Bangor</span>, 
+<span class="sub_category_link">Bath</span>, 
+<span class="sub_category_link">Belfast</span>, 
+<span class="sub_category_link">Birmingham</span>, 
+<span class="sub_category_link">Bradford</span>, 
+<span class="sub_category_link">Brighton & Hove</span>...</div>
+
+<div class="clear"></div>
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-united-states-229.html" class="category_link">United States</a>
+<span class="sub_category_link">Alabama</span>, 
+<span class="sub_category_link">Alaska</span>, 
+<span class="sub_category_link">American Samoa</span>, 
+<span class="sub_category_link">Arizona</span>, 
+<span class="sub_category_link">Arkansas</span>, 
+<span class="sub_category_link">California</span>, 
+<span class="sub_category_link">Colorado</span>, 
+<span class="sub_category_link">Connecticut</span>...</div>
+
+<div class="col-md-4 no-left-padding margin-bottom-10">
+
+<a href="#location-venezuela-235.html" class="category_link">Venezuela</a>
+<span class="sub_category_link">Acarigua</span>, 
+<span class="sub_category_link">Anaco</span>, 
+<span class="sub_category_link">Barcelona</span>, 
+<span class="sub_category_link">Barinas</span>, 
+<span class="sub_category_link">Barquisimeto</span>, 
+<span class="sub_category_link">Cabimas</span>, 
+<span class="sub_category_link">Cabudare</span>, 
+<span class="sub_category_link">Cagua</span>...</div>
+	
+
+	</div>
+
+  </div>
+
+
+<br/>
+
+
+
+
+
+				
+						<div class="clearfix"></div>
+						<br/>
+						
+						<center>			
+							<site bottom_banners/>
+						</center>
+					</div>
+					
+					
+					<div class="col-md-4 left-column">
+					
+						
+
+		
+	<div class="gray-wrap">
+
+		<h4 class="aside-header">
+					Latest Jobs			
+				</h4>
+			<hr class="top-bottom-margin"/>
+	
+			<a href="#job-public-cloud-senior-test-developer-javajavaee-27.html"><img align="left" src="thumbnails/63527859.jpg" width="80" alt="Oracle Corporation" class="img-shadow img-right-margin"/></a>			
+			<h5 class="no-margin"><a href="#job-public-cloud-senior-test-developer-javajavaee-27.html" class="aside-link">
+				Public Cloud Senior Test Developer (Java/JavaEE)			</a></h5>
+			<span class="sub-text">
+			As a member of Oracle Cloud team, you will involve ...			</span>
+			<div class="clearfix"></div>
+			<hr class="top-bottom-margin"/>
+			
+		
+			<a href="#job-data-center-manager-33.html"><img align="left" src="thumbnails/40565264.jpg" width="80" alt="Amazon.com Inc." class="img-shadow img-right-margin"/></a>			
+			<h5 class="no-margin"><a href="#job-data-center-manager-33.html" class="aside-link">
+				Data Center Manager			</a></h5>
+			<span class="sub-text">
+			Amazon.com is a fast paced technology company and a leader ...			</span>
+			<div class="clearfix"></div>
+			<hr class="top-bottom-margin"/>
+			
+		
+			<a href="#job-claims-data-entry-clerk-32.html"><img align="left" src="thumbnails/28826734.jpg" width="80" alt="Hewlett-Packard" class="img-shadow img-right-margin"/></a>			
+			<h5 class="no-margin"><a href="#job-claims-data-entry-clerk-32.html" class="aside-link">
+				Claims Data Entry Clerk			</a></h5>
+			<span class="sub-text">
+			Participates productively as member of team, possibly in a team ...			</span>
+			<div class="clearfix"></div>
+			<hr class="top-bottom-margin"/>
+			
+				
+		<div class="text-center"><a class="underline-link" href="#mod-en-latest-jobs.html">See All</a></div>
+		<br/>
+		</div>
+		
+						
+						
+						<br/>
+						<h3 class="aside-header">
+							Advertisements
+						</h3>
+						<hr class="top-bottom-margin"/>
+						
+						<site side_column_banners/>
+						
+					</div>
+					
+					
+					
+					<div class="clearfix"></div>
+				</div>
+			</div>
+	
+		
+		
+		
+		
+	
+				
+			
+	
+		
+			
+		
+		<div class="footer custom-back-color default-back-color">
+			
+			<div class="container">
+				<div class="row">
+				
+					<div class="col-md-4 bottom-links">
+						<h4 class="widget-title white-font">Quick Links</h4>
+						<div class="bottom-links-nav">
+							
+							<ul>
+								
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+			
+				<li>
+					<a href="#en_Courses.html">Courses</a>
+				</li>
+			
+				<li>
+					<a href="#en_Jobseekers.html">Jobseekers</a>
+				</li>
+			
+				<li>
+					<a href="#en_Employers.html">Employers</a>
+				</li>
+			
+				<li>
+					<a href="#en_About+us.html">About us</a>
+				</li>
+			
+				<li>
+					<a href="#en_News.html">News</a>
+				</li>
+			
+				<li>
+					<a href="#en_Contact.html">Contact</a>
+				</li>
+			
+							</ul>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					
+					
+					
+					
+					
+					<div class="col-md-4 bottom-links">
+						<h4 class="widget-title white-font">Latest News</h4>
+						
+								<a class="news-title" href="#news-1-this-is-a-test-news.html">This is a test news</a>
+	<span class="sub-text">
+	Some content of the news comes here<a title="This is a test news" href="#news-1-this-is-a-test-news.html">...</a>
+	</span>
+	<br/><br/>
+						
+					</div>
+					
+					<div class="col-md-4 bottom-links">
+						<h4 class="widget-title white-font">Connect with us</h4>
+					
+						<div class="textwidget">
+							<a target="_blank" href="https://www.facebook.com/ittjobs" rel="nofollow"><img src="images/facebook-icon.png" class="bottom-icon"/></a><a target="_blank" href="https://twitter.com/ittjobs" rel="nofollow"><img src="images/twitter-icon.png" class="bottom-icon"/></a><a target="_blank" href="https://plus.google.com/u/0/103588570147550065872" rel="publisher"><img src="images/googleplus-icon.png" class="bottom-icon"/></a>
+						</div>
+					</div>
+
+					
+				</div>
+				<div class="clearfix"></div>
+			
+				
+			</div>	
+			
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="white-font pull-left">
+					ittjobs.com &copy; 2017
+				</div>
+				<div class="footer-credits text-center white-font pull-right">
+					
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="js/functions.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	    <div class="modal modal-login"  id="login-modal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" onclick="javascript:document.getElementById('login-modal').style.display='none'" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 id="loginModalLabel" class="modal-title text-center">
+					
+					Log in to your account					
+					</h4>
+                </div>
+                <div class="modal-body">
+                 
+                    <div class="login-form-container">
+                 
+
+						<form class="login-form" action="#loginaction.php" method="post" onsubmit="return ValidateLoginForm(this)">
+							<input type="hidden" name="mod" value="login"/>
+						
+															<input type="hidden" name="lang" value="en">
+							
+			
+                            <div class="form-group email">
+                                <label class="sr-only" for="login-email">Your Email</label>
+								<img src="images/icon-user.gif" alt="" class="login-icon"/>
+                                <input id="login-email" name="Email" type="text" class="form-control login-email" placeholder="Your Email">
+                            </div>
+                            <div class="form-group password">
+                                <label class="sr-only" for="login-password">Password</label>
+								<img src="images/icon-password.gif" alt="" class="login-icon"/>
+                                <input id="login-password" name="Password" type="password" class="form-control login-password" placeholder="Password">
+                                <p class="forgot-password">
+                                   <a class="underline-link" href="#mod-en-forgotten_password.html">Forgotten password?</a> 
+                                </p>
+                            </div>
+                            <button type="submit" class="btn btn-block btn-primary custom-back-color">LOG IN</button>
+                        
+                        </form>
+                    </div>
+					
+					<br/>
+					
+											<div class="divider"><span>or</span></div>
+										
+					<div class="text-center">
+													<a href="#index.php?mod=login-facebook&amp;lang=en"><img src="images/facebook-signin.png" height="22" alt=""/></a>
+												
+							<a href="#mod-en-login-twitter.html"><img src="images/twitter-signin.png" height="22" class="l-margin-10" alt=""/></a>
+												
+							<a href="#mod-en-login-linkedin.html"><img src="images/linkedin-signin.png" height="22" class="l-margin-10" alt=""/></a>
+											</div>
+
+	
+	
+                </div>
+				
+				<br/>
+                <div class="modal-footer">
+                    <p>
+						<strong>Still don't have an account?</strong>
+						<br/><br/>
+						<a class="underline-link" href="#mod-en-jobseekers.html">Create your job seeker account</a>
+						 or 
+						<a class="underline-link" href="#mod-en-employers_registration.html">Sign up as an employer</a>
+					
+					</p>                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+	
+</body>
+</html>
